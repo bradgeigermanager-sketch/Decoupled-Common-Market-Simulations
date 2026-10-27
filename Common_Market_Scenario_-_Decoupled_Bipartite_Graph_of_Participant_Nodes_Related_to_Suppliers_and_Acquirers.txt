@@ -1,0 +1,15 @@
+This specific framework models a highly localized, transaction-driven market failure rather than a macro-environmental one.
+In this scenario, the "Commons" being depleted is informational integrity and institutional trust, which are eroded by misaligned transaction incentives.
+
+⚖️ The Mechanics of this Market Failure
+
+• The Depleted Commons: The shared informational resources of the market—specifically accurate product assessments, credible disclosures, reliable comparisons, and institutional trust. As these are depleted, honest disclosure becomes a competitive disadvantage.
+• The Decoupling Mechanism: The decision-makers (purchasers and brokers) are insulated from the financial, operational, or reputational consequences of product failure. Because rewards are tied to closing transactions rather than downstream performance, the actors do not bear the costs of poor decisions.
+• The Compounding Loop: A toxic feedback loop occurs where poor acquisitions, distorted performance assessments, and weak accountability inevitably reinforce and justify subsequent bad decisions, progressively impairing the system's capacity to self-correct.
+
+🔍 Archetypal Examples of This Scenario
+
+While the text describes an abstract market, this exact dynamic perfectly mirrors several historical and contemporary industry crises:
+• The 2008 Subprime Mortgage Crisis: Mortgage brokers were incentivized strictly by transaction volume to sell faulty financial products (subprime loans). Institutional purchasers (investment banks/ratings agencies) packaged and bought them to meet short-term volume goals, completely insulated from the ultimate systemic collapse. The "commons" destroyed was the baseline credibility of AAA ratings and institutional trust.
+• Enterprise Software Procurement (The "Shelfware" Phenomenon): Independent software vendors and IT consultants oversell the capabilities of a complex software system. Corporate procurement managers push the purchase through to hit a quarterly modernization KPI or budget cycle. By the time the software fails to deploy or work operationally years later, the original decision-makers have been promoted or changed companies, completely decoupled from the failure.
+• Corporate Carbon Offsets: Independent brokers market carbon credits that systematically overrepresent actual carbon capture. Corporate sustainability officers purchase them to immediately check a "Net Zero" compliance box and boost public relations. The ultimate consequence (failed climate mitigation) is entirely decoupled from the transaction, while the shared informational resource (the credibility of carbon accounting) is ruined.
