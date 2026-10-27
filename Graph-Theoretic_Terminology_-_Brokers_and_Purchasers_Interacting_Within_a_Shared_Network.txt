@@ -1,0 +1,36 @@
+Combining **graph theory** with **market economics** provides a precise vocabulary for mapping how independent brokers and organizational purchasers interact within a shared network.
+
+---
+
+### 1. Graph-Theoretic Terminology (Structural Topology)
+
+When modeling a market as a graph, the architecture is defined by how entities and their relationships are mathematically categorized:
+
+* **Bipartition ($V = U \cup W$):** The formal division of all market actors into two disjoint sets—Set $U$ (e.g., Brokers) and Set $W$ (e.g., Purchasers)—such that no two nodes within the same set connect directly to one another.
+* **Edges ($E$):** The lines or links connecting a node in Set $U$ to a node in Set $W$. In a market context, an edge represents a **transactional interaction** or contract negotiation between a broker and a purchaser.
+* **Biadjacency Matrix:** A rectangular matrix ($\vert{}U\vert{} \times \vert{}W\vert{}$ rows and columns) used to map interactions. Instead of a square matrix, the rows represent brokers and the columns represent purchasers, with matrix entries indicating whether a transaction or relationship occurred.
+* **Degree ($deg(v)$):** The number of edges connected to a specific node. For a broker, a high degree means they handle a high volume of transactions across multiple organizational purchasers; for a purchaser, it reflects how many different brokers they source from.
+* **One-Mode Projection:** A technique used to collapse a bipartite graph into a single-set network. For example, projecting a broker-purchaser graph onto the broker set reveals a network where two brokers are connected if they market to the same organizational purchasers, highlighting direct market competition.
+
+---
+
+### 2. Domain-Specific Market Terminology (Economic Context)
+
+When overlaying economic mechanics onto the bipartite structure, specific terms describe the behavior and friction of the system:
+
+* **Two-Sided Market (Two-Sided Platform):** An economic environment where two distinct user groups (brokers and purchasers) provide each other with network benefits, mediated by structural rules or platform rules.
+* **Intermediation:** The structural position of brokers acting as middlemen who bridge the gap between product availability and organizational acquisition.
+* **Matching Friction:** The structural inefficiencies, information asymmetries, or communication gaps that make it difficult for optimal buyers and sellers to find each other cleanly.
+* **Edge Weight / Transaction Intensity:** Quantifying the strength, frequency, or monetary value of the interaction flowing across a specific edge in the bipartite graph (e.g., the scale of a completed acquisition).
+
+---
+
+### 3. Relational and Grammatical Terminology
+
+In descriptions of network behavior and systems architecture, specific verbs and modifiers describe how these entities interact:
+
+* **Incident:** A term describing the relationship between a node and an edge. For instance, *"A transactional edge is **incident** to both Broker A and Purchaser B."*
+* **Adjacent:** Two nodes of *different* types connected by an edge. (In a strict bipartite graph, nodes of the *same* type are never adjacent).
+* **Decoupled / Disconnected:** Describing a state where the feedback loops or accountability structures between the two bipartite sets are severed—meaning actions taken by brokers on one side do not trigger proportional operational consequences on the purchaser side.
+
+This type of bipartite broker-purchaser network can be represented programmatically using Python libraries like NetworkX.
